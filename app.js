@@ -22,7 +22,8 @@ data = [{
         "rate":"8",
         "count":"87"
     }
-}]
+}];
+
 const id = 2
 function setID() {
     id++
