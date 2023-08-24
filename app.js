@@ -29,14 +29,15 @@ function setID() {
     id++
     return id-1
 };
+const cors = require('cors');
+const express = require('express');
+const app = express();
+const morgan = require('morgan');
+const send = require('send');
+const port = 3000;
 
-const express = require('express')
-const app = express()
-const morgan = require('morgan')
-const send = require('send')
-const port = 3000
-
-//app.use(morgan);
+app.use(morgan());
+app.use(cors());
 app.get('/', (req, res)=>{
     res.send(data)
 })
