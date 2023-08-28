@@ -4,7 +4,7 @@ data = [{
     "description":"2L of miniral-water from RAMAT HA GOLAN",
     "price": "9",
     "category": "drinks",
-    "image": app.use(express.static('./publicity/water-img.jfif')),
+    //"image": app.use(express.static('./publicity/water-img.jfif')),
     "quantity": "28",
     "rating":{
         "rate": "7",
@@ -16,7 +16,7 @@ data = [{
     "description": "1.5L of 100% fruit-made juce from the switest apples of POLAND",
     "price": "18",
     "category": "drinks",
-    "image": app.use(express.static('./publicity/apple-img.jfif')),
+    //"image": app.use(express.static('./publicity/apple-img.jfif')),
     "quantity": "43",
     "rating": {
         "rate":"8",
